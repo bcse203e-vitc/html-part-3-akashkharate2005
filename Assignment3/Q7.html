@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Room A</th>
+                <th>Room B</th>
+                <th>Room C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM - 10:00 AM</td>
+                <td colspan="3" bgcolor="lightblue" title="Keynote: Innovations in AI by Dr. Smith">Keynote Session</td>
+            </tr>
+            <tr>
+                <td>10:15 AM - 11:15 AM</td>
+                <td bgcolor="lightgreen" title="Workshop on Python by Jane Doe">Python Workshop</td>
+                <td rowspan="2" bgcolor="lightyellow" title="Panel Discussion: Future of Technology by Various Experts">Panel Discussion</td>
+                <td bgcolor="lightpink" title="Talk: Advances in Robotics by John Brown">Robotics Talk</td>
+            </tr>
+            <tr>
+                <td>11:30 AM - 12:30 PM</td>
+                <td bgcolor="lightgreen" title="Workshop on Data Science by Mark Lee">Data Science Workshop</td>
+                <td bgcolor="lightpink" title="Talk: Machine Learning Trends by Sarah Green">ML Trends Talk</td>
+            </tr>
+            <tr>
+                <td>1:30 PM - 3:00 PM</td>
+                <td colspan="3" bgcolor="lightblue" title="Keynote: Sustainability in Tech by Dr. Laura Hill">Closing Keynote</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Legend</h2>
+    <ul>
+        <li style="background-color: lightblue;">Keynote</li>
+        <li style="background-color: lightgreen;">Workshop</li>
+        <li style="background-color: lightyellow;">Panel Discussion</li>
+        <li style="background-color: lightpink;">Talk</li>
+    </ul>
+</body>
+</html>
